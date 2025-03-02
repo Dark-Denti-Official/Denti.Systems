@@ -1,5 +1,5 @@
 {
-  "builds": [{ "src": "gulpfile.js", "use": "@vercel/static-build" }],
+  "builds": [{ "src": "package.json", "use": "@vercel/static-build" }],
   "routes": [{ "src": "/(.*)", "dest": "/public/$1" }],
   "outputDirectory": "public"
 }
