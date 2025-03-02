@@ -3,3 +3,14 @@
   "routes": [{ "src": "/(.*)", "dest": "/public/$1" }],
   "outputDirectory": "public"
 }
+{
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node",
+      "config": {
+        "buildCommand": "npm run build"
+      }
+    }
+  ]
+}
