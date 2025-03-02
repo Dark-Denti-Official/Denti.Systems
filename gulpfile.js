@@ -26,8 +26,8 @@ var path = {
     fonts: "source/fonts/**/*.+(eot|ttf|woff|woff2|otf)",
   },
   build: {
-    dirBuild: "theme/",
-    dirDev: "theme/",
+    dirBuild: "public",
+    dirDev: "public",
   },
 };
 
